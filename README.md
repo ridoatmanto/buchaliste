@@ -7,8 +7,8 @@ JSON output preview:
 
 ## REST API Specification
 
-- Production: `https://bucherliste.ridoatmanto.com`
-- Local: `http://localhost:3000`
+- Production: `https://bucherliste.ridoatmanto.com/api`
+- Local: `http://localhost:3000/api`
 
 | Endpoint     | HTTP     | Description        |
 | ------------ | -------- | ------------------ |
@@ -40,10 +40,10 @@ bun install
 To run:
 
 ```sh
-bun run dev
+bun vercel dev
 ```
 
-then open `http://localhost:3000`
+then open `http://localhost:3000/api`
 
 ## Futhermore Information
 
